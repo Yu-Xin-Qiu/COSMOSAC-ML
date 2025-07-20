@@ -1,0 +1,23 @@
+epochs: 200
+gpu: cuda:0
+lr_decay_patience: 7
+early_stop_patience: 15
+lr_decay_factor: 0.3
+split by: index     
+seed: 1
+k : 10
+
+batch_size: 64
+init_lr: 0.0003
+min_lr :  0.00001
+weight_decay : 0
+
+
+transformer:
+  ntoken: 1688
+  d_model: 256
+  nhead: 4
+  d_hid: 512
+  nlayers: 3
+  dropout: 0
+
